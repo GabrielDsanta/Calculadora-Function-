@@ -8,4 +8,9 @@ function Somar(numberA, numberB){
     return parseInt(numberA) + parseInt(numberB)
 }
 
-console.log(Somar(numberA, numberB))
+function Subtracao(numberA, numberB){
+    return parseInt(numberA) - parseInt(numberB)
+}
+
+console.log(`A Soma dos valores é ${Somar(numberA, numberB)}`)
+console.log(`A Subtração dos valores é ${Subtracao(numberA, numberB)}`)
